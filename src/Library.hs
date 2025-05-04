@@ -52,3 +52,11 @@ maite = Persona {
 cumplirAnios :: Persona -> Persona
 cumplirAnios persona = persona { edad = edad persona + 1 }
 
+-- multiples constructores de datos
+data Color = Rojo | Verde | Azul | Amarillo | Blanco
+
+-- creamos una funcion para saber el costo por litro de un color de pintura
+costoPorLitro :: Color -> Number
+costoPorLitro Blanco = 500
+costoPorLitro Azul = 600
+costoPorLitro _ = 900
