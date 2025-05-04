@@ -1,0 +1,7 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "kata0-anio2025:lib"
+
+    - path: "./test"
+      component: "kata0-anio2025:test:kata0-anio2025-test"
